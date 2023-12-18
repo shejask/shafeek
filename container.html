@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <input type="date" id="traveldate">
+
+    <div class="mb-4">
+        <label for="duration" class="block text-gray-600 text-sm font-semibold mb-2">Duration:</label>
+        <select id="duration" name="duration" class="w-full p-2 border border-gray-300 rounded">
+            <option value="0">Chooose days</option>
+            <option value="1">1 day</option>
+            <option value="2">2 days</option>
+            <option value="3">3 days</option>
+        </select>
+    </div>
+
+
+
+     
+  
+    </div>
+
+
+
+    <button id="printButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Print</button>
+
+ 
+
+        <button type="button" id="savedata" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700">Save</button>
+    </div>
+
+    <div id="formContainer" class="w-full  "></div>
+
+    <script type="module" src="container.js"></script>
+
+</body>
+</html>
